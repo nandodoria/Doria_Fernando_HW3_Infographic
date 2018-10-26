@@ -1,0 +1,27 @@
+body {
+  font-family: 'Roboto', sans-serif; }
+
+#intro {
+  margin-top: 20px; }
+
+#introtext p {
+  color: #325d79;
+  font-size: 13px;
+  line-height: 23px;
+  text-align: center; }
+
+#introtext {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 10px; }
+
+#graphdiv {
+  margin-bottom: 20px; }
+
+#activitydiv {
+  margin-bottom: 20px; }
+
+#hashtag_likediv {
+  margin-bottom: 20px; }
+
+/*# sourceMappingURL=main.css.map */
