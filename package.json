@@ -1,0 +1,25 @@
+{
+  "name": "Doria_Fernando_HW3",
+  "version": "1.0.0",
+  "description": "This is an interactive inforgraphic for the social media site Instagram",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nandodoria/Doria_Fernando_HW3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nandodoria/Doria_Fernando_HW3/issues"
+  },
+  "homepage": "https://github.com/nandodoria/Doria_Fernando_HW3#readme"
+}
