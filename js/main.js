@@ -1,6 +1,5 @@
 (() => {
 
-    new WOW().init();
     
     let photothumb = document.querySelector("#photo_x5F_icon");
     let photonotif = document.querySelector("#notif1");
