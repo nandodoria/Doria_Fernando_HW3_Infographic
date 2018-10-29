@@ -6,20 +6,33 @@ body {
 
 #introtext p {
   color: #325d79;
-  font-size: 13px;
-  line-height: 23px;
+  font-size: 0.813em;
+  line-height: 1.538em;
   text-align: center; }
 
 #introtext {
   padding-left: 10px;
   padding-right: 10px;
-  margin-bottom: 10px; }
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding-top: 15px; }
+
+#textbackground {
+  background-color: #EFEEEE; }
+
+#activitybg {
+  background-color: #F9a26c; }
+
+#bubblesbg {
+  background-color: #EFEEEE; }
 
 #graphdiv {
-  margin-bottom: 20px; }
+  margin-bottom: 30px; }
 
 #activitydiv {
-  margin-bottom: 20px; }
+  margin-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px; }
 
 #hashtag_likediv {
   margin-bottom: 20px; }
@@ -45,7 +58,20 @@ body {
   opacity: 0.7;
   cursor: pointer; }
 
+#threetext {
+  display: none; }
+
+#fourtext {
+  display: none; }
+
+#sixtext {
+  display: none; }
+
+#eighttext {
+  display: none; }
+
 #bubbles {
-  padding-top: 100px; }
+  padding-top: 30px;
+  padding-bottom: 20px; }
 
 /*# sourceMappingURL=main.css.map */

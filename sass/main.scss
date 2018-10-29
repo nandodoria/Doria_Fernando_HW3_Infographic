@@ -13,8 +13,8 @@ body
 #introtext p
 {
     color: $blue;
-    font-size: 13px;
-    line-height: 23px;
+    font-size: 0.813em;
+    line-height: 1.538em;
     text-align: center;
 }
 
@@ -22,23 +22,43 @@ body
 {
     padding-left: 10px;
     padding-right: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+
+#textbackground
+{
+    background-color: $offwhite;
+}
+
+#activitybg
+{
+    background-color: $lightorange;
+}
+
+#bubblesbg
+{
+    background-color: $offwhite;
 }
 
 #graphdiv
 {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 #activitydiv
 {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 #hashtag_likediv
 {
     margin-bottom: 20px;
 }
+
 
 #notif1
 {
@@ -73,11 +93,28 @@ body
     cursor: pointer;
 }
 
-#bubbles
+#threetext
 {
-    padding-top: 100px;
+    display: none;
 }
 
+#fourtext
+{
+    display: none;
+}
 
+#sixtext
+{
+    display: none;
+}
 
+#eighttext
+{
+    display: none;
+}
 
+#bubbles
+{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
