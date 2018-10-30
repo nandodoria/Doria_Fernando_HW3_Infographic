@@ -40,6 +40,7 @@ body
 #bubblesbg
 {
     background-color: $offwhite;
+    padding-bottom: 10px;
 }
 
 #graphdiv
@@ -117,4 +118,201 @@ body
 {
     padding-top: 30px;
     padding-bottom: 20px;
+}
+
+#like
+{
+    padding-top: 20px;
+}
+
+#hashtag
+{
+    padding-top: 20px;
+}
+
+#percent
+{
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+    font-size: 1.1em;
+    color: $orange;
+}
+
+#fact
+{
+    font-weight: 100;
+    margin: 0;
+    font-size: 0.9em;
+    color: $orange;
+}
+
+
+
+/* -----------------------MEDIA QUERIES--------------------------- */
+@media screen and (min-width: 300px) /* On screens that are ___px wide or greater */
+{
+    #activitydiv
+    {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 400px) /* On screens that are ___px wide or greater */
+{
+    #percent
+    {
+        font-size: 1.3em;
+    }
+
+    #fact
+    {
+        font-size: 1.1em;
+    }
+
+}
+
+@media screen and (min-width: 500px) /* On screens that are ___px wide or greater */
+{
+
+#like
+{
+    padding-top: 25px;
+}
+
+#hashtag
+{
+    padding-top: 25px;
+}
+
+#percent
+    {
+        font-size: 1.4em;
+    }
+
+#fact
+    {
+        font-size: 1.2em;
+    }
+
+#introtext p
+    {
+ 
+        font-size: 1em;
+        line-height: 1.538em;
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 600px) /* On screens that are ___px wide or greater */
+{
+    #introtext p
+    {
+ 
+        font-size: 1.15em;
+        line-height: 1.538em;
+        text-align: center;
+    }
+
+    #percent
+    {
+        font-size: 1.5em;
+    }
+
+#fact
+    {
+        font-size: 1.3em;
+    }
+
+    #like
+{
+    padding-top: 30px;
+}
+
+#hashtag
+{
+    padding-top: 30px;
+}
+
+}
+
+@media screen and (min-width: 700px) /* On screens that are ___px wide or greater */
+{
+
+    #bubblesbg
+    {
+        padding-bottom: 20px;
+    }
+
+}
+
+@media screen and (min-width: 900px) /* On screens that are ___px wide or greater */
+{
+
+    #bubbles
+    {
+        padding-top: 40px;
+    }
+
+    #percent
+    {
+        font-size: 1.6em;
+    }
+
+    #fact
+    {
+        font-size: 1.4em;
+    }
+
+}
+
+@media screen and (min-width: 1024px) /* On screens that are ___px wide or greater */
+{
+
+    #introtext p {
+        font-size: 1.2em;
+    }
+
+    #graphdiv
+    {
+        padding-top: 15px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) /* On screens that are ___px wide or greater */
+{
+
+    #like
+    {
+        padding-top: 40px;
+    }
+    
+    #hashtag
+    {
+        padding-top: 40px;
+    }
+    #bubbles
+    {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    #introtext p 
+    {
+        font-size: 1.3em;
+        line-height: 1.6em;
+    }
+
+    #percent
+    {
+        font-size: 1.7em;
+    }
+
+    #fact
+    {
+        font-size: 1.6em;
+    }
+
 }

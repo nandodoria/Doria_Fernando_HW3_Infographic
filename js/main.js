@@ -24,7 +24,10 @@
     let text800 = document.querySelector("#eighttext");
     let textbillion = document.querySelector("#billiontext");
 
-    
+    let likenotif = document.querySelector("#like_x5F_notification");
+    let starnotif = document.querySelector("#star_x5F_notification");
+    let personnotif = document.querySelector("#notification");
+
 
     let bluecircle = document.querySelector("#blue_x5F_bubble");
     let orangecircle = document.querySelector("#orange_x5F_bubble");
@@ -137,6 +140,30 @@
         TweenMax.to(textbillion, 0.5, {scale:1, transformOrigin: "50% 100%", ease:Bounce.easeOut});
     }
 
+    function growHeart(){
+        TweenMax.to(likenotif, 0.5, {scale:1.2, transformOrigin: "50% 100%", ease:Back.easeOut});
+    }
+
+    function shrinkHeart(){
+        TweenMax.to(likenotif, 0.5, {scale:1, transformOrigin: "50% 100%", ease:Bounce.easeOut});
+    }
+
+    function growStar(){
+        TweenMax.to(starnotif, 0.5, {scale:1.2, transformOrigin: "50% 100%", ease:Back.easeOut});
+    }
+
+    function shrinkStar(){
+        TweenMax.to(starnotif, 0.5, {scale:1, transformOrigin: "50% 100%", ease:Bounce.easeOut});
+    }
+
+    function growPerson(){
+        TweenMax.to(personnotif, 0.5, {scale:1.2, transformOrigin: "50% 100%", ease:Back.easeOut});
+    }
+
+    function shrinkPerson(){
+        TweenMax.to(personnotif, 0.5, {scale:1, transformOrigin: "50% 100%", ease:Bounce.easeOut});
+    }
+
 
 
 
@@ -154,7 +181,14 @@
     worldthumb.addEventListener("click", showText2);
     pizzathumb.addEventListener("click", showText3);
 
+    likenotif.addEventListener("mouseover", growHeart);
+    likenotif.addEventListener("mouseout", shrinkHeart);
 
+    starnotif.addEventListener("mouseover", growStar);
+    starnotif.addEventListener("mouseout", shrinkStar);
+
+    personnotif.addEventListener("mouseover", growPerson);
+    personnotif.addEventListener("mouseout", shrinkPerson);
 
     pulse0.addEventListener("mouseover", pulse0Grow);
     pulse0.addEventListener("mouseout", pulse0Shrink);
