@@ -130,16 +130,27 @@ body
     padding-top: 20px;
 }
 
-#percent
+.percent
 {
     font-weight: bold;
     margin: 0;
     text-align: center;
     font-size: 1.1em;
     color: $orange;
+    text-transform: uppercase;
 }
 
-#fact
+.percent2
+{
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+    font-size: 1.1em;
+    color: $orange;
+    text-transform: uppercase;
+}
+
+.fact
 {
     font-weight: 100;
     margin: 0;
@@ -160,12 +171,17 @@ body
 
 @media screen and (min-width: 400px) /* On screens that are ___px wide or greater */
 {
-    #percent
+    .percent
     {
         font-size: 1.3em;
     }
 
-    #fact
+    .percent2
+    {
+        font-size: 1.3em;
+    }
+
+    .fact
     {
         font-size: 1.1em;
     }
@@ -185,12 +201,17 @@ body
     padding-top: 25px;
 }
 
-#percent
+.percent
     {
         font-size: 1.4em;
     }
 
-#fact
+    .percent2
+    {
+        font-size: 1.4em;
+    }
+
+.fact
     {
         font-size: 1.2em;
     }
@@ -215,12 +236,17 @@ body
         text-align: center;
     }
 
-    #percent
+    .percent
     {
         font-size: 1.5em;
     }
 
-#fact
+    .percent2
+    {
+        font-size: 1.5em;
+    }
+
+.fact
     {
         font-size: 1.3em;
     }
@@ -255,12 +281,17 @@ body
         padding-top: 40px;
     }
 
-    #percent
+    .percent
     {
         font-size: 1.6em;
     }
 
-    #fact
+    .percent2
+    {
+        font-size: 1.6em;
+    }
+
+    .fact
     {
         font-size: 1.4em;
     }
@@ -305,14 +336,19 @@ body
         line-height: 1.6em;
     }
 
-    #percent
+    .percent
     {
         font-size: 1.7em;
     }
 
-    #fact
+    .percent2
     {
-        font-size: 1.6em;
+        font-size: 1.9em;
+    }
+
+    .fact
+    {
+        font-size: 1.8em;
     }
 
 }

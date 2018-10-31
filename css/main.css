@@ -81,14 +81,23 @@ body {
 #hashtag {
   padding-top: 20px; }
 
-#percent {
+.percent {
   font-weight: bold;
   margin: 0;
   text-align: center;
   font-size: 1.1em;
-  color: #F26627; }
+  color: #F26627;
+  text-transform: uppercase; }
 
-#fact {
+.percent2 {
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+  font-size: 1.1em;
+  color: #F26627;
+  text-transform: uppercase; }
+
+.fact {
   font-weight: 100;
   margin: 0;
   font-size: 0.9em;
@@ -99,10 +108,13 @@ body {
   #activitydiv {
     margin-bottom: 10px; } }
 @media screen and (min-width: 400px) {
-  #percent {
+  .percent {
     font-size: 1.3em; }
 
-  #fact {
+  .percent2 {
+    font-size: 1.3em; }
+
+  .fact {
     font-size: 1.1em; } }
 @media screen and (min-width: 500px) {
   #like {
@@ -111,10 +123,13 @@ body {
   #hashtag {
     padding-top: 25px; }
 
-  #percent {
+  .percent {
     font-size: 1.4em; }
 
-  #fact {
+  .percent2 {
+    font-size: 1.4em; }
+
+  .fact {
     font-size: 1.2em; }
 
   #introtext p {
@@ -127,10 +142,13 @@ body {
     line-height: 1.538em;
     text-align: center; }
 
-  #percent {
+  .percent {
     font-size: 1.5em; }
 
-  #fact {
+  .percent2 {
+    font-size: 1.5em; }
+
+  .fact {
     font-size: 1.3em; }
 
   #like {
@@ -145,10 +163,13 @@ body {
   #bubbles {
     padding-top: 40px; }
 
-  #percent {
+  .percent {
     font-size: 1.6em; }
 
-  #fact {
+  .percent2 {
+    font-size: 1.6em; }
+
+  .fact {
     font-size: 1.4em; } }
 @media screen and (min-width: 1024px) {
   #introtext p {
@@ -171,10 +192,13 @@ body {
     font-size: 1.3em;
     line-height: 1.6em; }
 
-  #percent {
+  .percent {
     font-size: 1.7em; }
 
-  #fact {
-    font-size: 1.6em; } }
+  .percent2 {
+    font-size: 1.9em; }
+
+  .fact {
+    font-size: 1.8em; } }
 
 /*# sourceMappingURL=main.css.map */

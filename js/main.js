@@ -29,10 +29,13 @@
     let personnotif = document.querySelector("#notification");
 
 
-    let bluecircle = document.querySelector("#blue_x5F_bubble");
-    let orangecircle = document.querySelector("#orange_x5F_bubble");
-    let greencircle = document.querySelector("#green_x5F_bubble");
+    let bluecircle = document.querySelector("#sixty-eight");
+    let orangecircle = document.querySelector("#ninety-eight");
+    let greencircle = document.querySelector("#seventy-two");
 
+    let percentColor = document.querySelector(".percent")
+    let percent2 = document.querySelector(".percent2");
+    let factColor = document.querySelector(".fact")
     
 
     function circle1grow(){
@@ -164,18 +167,39 @@
         TweenMax.to(personnotif, 0.5, {scale:1, transformOrigin: "50% 100%", ease:Bounce.easeOut});
     }
 
+    function changeColorBlue(){
+        percentColor.style.color = "#325d79";
+        percent2.style.color = "#325d79";
+        factColor.style.color = "#325d79";
+    }
+
+    function changeColorOrange(){
+        percentColor.style.color = "#F26627";
+        percent2.style.color = "#F26627";
+        factColor.style.color = "#F26627";
+    }
+
+    function changeColorGreen(){
+        percentColor.style.color = "#9bd7d1";
+        percent2.style.color = "#9bd7d1";
+        factColor.style.color = "#9bd7d1";
+    }
+
 
 
 
 
     bluecircle.addEventListener("mouseover", circle1grow);
     bluecircle.addEventListener("mouseout", circle1shrink);
+    bluecircle.addEventListener("mouseover", changeColorBlue)
 
     orangecircle.addEventListener("mouseover", circle2grow);
     orangecircle.addEventListener("mouseout", circle2shrink);
+    orangecircle.addEventListener("mouseover", changeColorOrange);
 
     greencircle.addEventListener("mouseover", circle3grow);
     greencircle.addEventListener("mouseout", circle3shrink);
+    greencircle.addEventListener("mouseover", changeColorGreen);
 
     photothumb.addEventListener("click", showText1)
     worldthumb.addEventListener("click", showText2);
@@ -205,6 +229,41 @@
 
 
     
+    const bubbles = document.querySelectorAll('.data-ref');
+
+    function getData() {
+       
+        // whenever we click on a thumbnail, pass its id to the php query
+        let targetURL = `./includes/connect.php?percent=${this.id}`;
+
+        fetch (targetURL) //go get the data and bring it back
+        .then(res => res.json()) // turn the result into a plain JS object
+        .then(data => {
+            console.log(data); // run a function to parse our data
+            showBubbleData(data[0]); // run a function to put the data on the page
+        })
+        .catch(function(error){
+            console.log(error); // if anything broke, log it to the console
+        });
+    }
+
+    function showBubbleData(data) {
+        //parse the DB info and put it where it needs to go
+        const { percent, fact} = data; //destructuring assignment => MDN JS destructuring
+
+        //grab the elements we need, and populate them with data
+        document.querySelector('.percent').textContent = percent;
+        document.querySelector('.fact').textContent = fact;
+    }
+
+    bubbles.forEach(bubble => bubble.addEventListener("mouseover", getData));
+
+    //getData(); //trigger the getData function
+
+
+
+
+
 
 
 
