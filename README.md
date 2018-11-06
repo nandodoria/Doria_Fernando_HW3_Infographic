@@ -22,11 +22,11 @@ $ cd Desktop
 
 # Clone this repository into your local machine
 
-$ git clone https://github.com/nandodoria/Doria_Fernando_HW3.git
+$ git clone https://github.com/nandodoria/Doria_Fernando_HW3_Infographic.git
 
 # Go into the repository
 
-$ cd Doria_Fernando_HW3
+$ cd Doria_Fernando_HW3_Infographic
 
 ```
 Installing Database
@@ -47,7 +47,7 @@ $ Inside includes/config.php, make sure the settings are correct for localhost, 
 $ Drag the folder into your htdocs or WWW folder 
 
 # Run through localhost
-$ Go through your localhost and find Doria_Fernando_HW3
+$ Go through your localhost and find Doria_Fernando_HW3_Infographic
 ```
 
 ## Resources
