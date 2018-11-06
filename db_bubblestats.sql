@@ -38,7 +38,7 @@ CREATE TABLE `tbl_stats` (
 
 INSERT INTO `tbl_stats` (`id`, `percent`, `fact`) VALUES
 (1, 'sixty-eight', 'of Instagram users are female'),
-(2, 'ninety-eight', 'of fashion brand are on Instagram'),
+(2, 'ninety-eight', 'of fashion brands are on Instagram'),
 (3, 'seventy-two', 'of teens are using instagram');
 
 --
