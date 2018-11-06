@@ -1,18 +1,17 @@
 # Insta Stats
-This is an interactive inforgraphic for the social media site Instagram
+This is an interactive inforgraphic for the facts and stats surrounding the social media site, Instagram
 
 ## Built with
 * [Foundation](https://foundation.zurb.com/) - Foundation Framework
+* [SASS](https://sass-lang.com/) - CSS
 
 ## Authors
-* **Fernando D'Oria** (https://github.com/nandodoria) -
+* **Fernando D'Oria** (https://github.com/nandodoria)
 
 
-## Progress
-* 10/25 - created repository
+## Installing Repository
 
-
-## Installing
+Works best on Google Chrome. MAMP or WAMP is also needed for this.
 
 Open Terminal or Command Line
 
@@ -30,8 +29,35 @@ $ git clone https://github.com/nandodoria/Doria_Fernando_HW3.git
 $ cd Doria_Fernando_HW3
 
 ```
+Installing Database
+```
+# MAMP, WAMP, XAMPP
+$ Open application and turn on servers
+
+# Creating a database
+$ Go into PHPMyAdmin and create a database called "db_bubblestats"
+
+# Importing database
+$ Import db_bubblestats.sql into your database
+
+# Edit configurations
+$ Inside includes/config.php, make sure the settings are correct for localhost, root, pw, and db 
+
+# htdocs or WWW
+$ Drag the folder into your htdocs or WWW folder 
+
+# Run through localhost
+$ Go through your localhost and find Doria_Fernando_HW3
+```
 
 ## Resources
+
+All research for this application was found from these sources:
+
+* https://adespresso.com/blog/instagram-statistics/
+* https://www.omnicoreagency.com/instagram-statistics/
+* https://www.websitehostingrating.com/instagram-statistics/
+* https://jumpermedia.co/powerful-instagram-stats/
 
 
 ## License
